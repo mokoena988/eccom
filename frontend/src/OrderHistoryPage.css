@@ -1,0 +1,200 @@
+.order_history_page {
+    background: gainsboro;
+}
+
+.order_history_page_desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.order_history_page_desktop_table_btn {
+    border-radius: 360px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.order_history_page_desktop_table_btn:hover {
+background-color: green;
+}
+
+.order_history_page_mobile {
+    display: none;
+}
+
+
+@media (max-width:700px) {
+
+    .order_history_page_desktop {
+        display: none;
+    }
+
+    .order_history_page_mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        padding-bottom: 20px;
+    }
+
+
+    .order_history_page_mobile_top {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+
+    .order_history_page_mobile_bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .order_history_page_mobile_bottom_card_parent {
+        width: 95%;
+        border-radius: 10px;
+        background-color: white;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .order_history_page_mobile_bottom_card_child_1 {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        border-bottom: 1px solid gainsboro;
+
+    }
+
+    .order_history_page_mobile_bottom_card_child_1_left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35%;
+    }
+
+    .order_history_page_mobile_bottom_card_child_1_left span {
+        font-weight: bold;
+    }
+
+    .order_history_page_mobile_bottom_card_child_1_right {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        width: 60%;
+    }
+
+    .order_history_page_mobile_bottom_card_child_2_left_bottom_left {
+        margin-left: 10px;
+    }
+
+    .order_history_page_mobile_bottom_card_child_2 {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 75px;
+        border-bottom: 1px solid gainsboro;
+    }
+
+    .order_history_page_mobile_bottom_card_child_2_left {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        border-right: 1px solid gainsboro;
+
+    }
+
+
+    .order_history_page_mobile_bottom_card_child_2_left_top {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+
+    .order_history_page_mobile_bottom_card_child_2_left_bottom {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+
+    .order_history_page_mobile_bottom_card_child_2_right {
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 100%;
+        padding-left: 15px;
+    }
+
+    .order_history_page_mobile_bottom_card_child_2_right_top {
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .order_history_page_mobile_bottom_card_child_2_right_bottom {
+        display: flex;
+        align-items: center;
+    }
+
+    .order_history_page_mobile_bottom_card_child_3 {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        border-bottom: 1px solid gainsboro;
+
+    }
+
+    .order_history_page_mobile_bottom_card_child_3_left {
+        display: flex;
+        align-items: center;
+        width: 10%;
+        padding-left: 10px;
+    }
+
+    .order_history_page_mobile_bottom_card_child_3_left_icon {
+        color: black;
+    }
+
+    .order_history_page_mobile_bottom_card_child_3_right {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    .order_history_page_mobile_bottom_card_child_3_left_date {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .order_history_page_mobile_bottom_card_child_4 {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .order_history_page_mobile_bottom_card_child_4_btn {
+        width: 95%;
+        height: 50%;
+        border: 1px solid gainsboro;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+    }
+
+
+}

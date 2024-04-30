@@ -1,0 +1,116 @@
+ .desktop_header {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    border-bottom: 1px solid gainsboro;
+    background-color: white;
+    width: 100%;
+ }
+
+ .desktop_header_left {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+ }
+
+ .desktop_header_left_logo {
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ .desktop_header_center {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .desktop_header_right {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15px;
+ }
+
+ .desktop_header_right_account_settings_parent {
+   border-left: 2px solid gainsboro;
+   
+
+   display: flex;
+   
+ }
+
+ .desktop_header_right_account_settings_parent_offline {
+   border-left: 2px solid gainsboro;
+   
+width: 70px;
+   display: flex;
+   justify-content: center;
+ }
+
+ .desktop_header_right_account_settings_signin_con {
+   display: flex;
+
+ }
+
+ .desktop_header_right_account_settings_signin_con_left {
+
+ }
+
+ .desktop_header_right_account_settings_signin_con_right {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+ .desktop_header_right_account_settings_signin_con_right span {
+   font-size: 11px;
+ }
+ .desktop_header_right_account_settings {
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+ }
+
+ .desktop_header_right_cart {
+    display: flex;
+    padding: 3px;
+    border-radius: 360px;
+    border: 1px solid gainsboro;
+margin-right: 15px;
+    position: relative;
+ }
+
+ .desktop_header_right_cart_icon {
+    color: black;
+ }
+
+ .desktop_header_right_cart_count {
+    position: absolute;
+    top: -4px;
+    right: -7px;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 20px;
+    font-size: 12px;
+    border-radius: 360px;
+    color: white;
+
+ }
+
+ .desktop_header_right_account_settings_logout {
+background-color: transparent;
+border: none;
+width: 100%;
+display: flex;
+color: gray;
+ }
+
+ .desktop_header_right_account_settings_logout_text {
+margin-left: 10px;
+ }
